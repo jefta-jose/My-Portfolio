@@ -1,0 +1,290 @@
+.AboutMe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    border: 2px solid gray;
+    font-weight: 900;
+    height: 13vh;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+  }
+  h4 {
+    height: 3vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    span {
+      font-weight: 900;
+    }
+  }
+
+  p {
+    width: 70%;
+    height: 23vh;
+    margin: auto;
+  }
+
+  .tasks {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    margin-top: 0.5rem;
+
+    .left-tasks {
+      width: 70%;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+
+
+      .top {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15vh;
+
+        .experiences {
+          border-right: 2px solid orange;
+          width: 100%;
+          background-color: black;
+          text-align: center;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-weight: 900;
+            color: orangered;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 40px;
+            border: none;
+          }
+          p {
+            color: white;
+            font-weight: 900;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 15px;
+          }
+        }
+
+        .project {
+          width: 100%;
+          text-align: center;
+          background-color: black;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-weight: 900;
+            color: orangered;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 40px;
+            border: none;
+          }
+          p {
+            color: white;
+            font-weight: 900;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 15px;
+          }
+        }
+      }
+
+      .bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15vh;
+        background-color: black;
+
+        .clients {
+          border-right: 2px solid orange;
+          width: 100%;
+          background-color: black;
+          text-align: center;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-weight: 900;
+            color: orangered;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 40px;
+            border: none;
+          }
+          p {
+            color: white;
+            font-weight: 900;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 15px;
+          }
+        }
+
+        .followers {
+          width: 100%;
+          background-color: black;
+          text-align: center;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-weight: 900;
+            color: orangered;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 40px;
+            border: none;
+          }
+          p {
+            color: white;
+            font-weight: 900;
+            background-color: black;
+            height: 3.75vh;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .what-i-do {
+      width: 30%;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .front-end {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .o-o-o {
+          width: 30%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 90%;
+          }
+        }
+
+        .t-t-t {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          height: 9vh;
+
+          h3 {
+            font-weight: 900;
+            height: 2vh;
+            font-size: 15px;
+            width: 100%;
+          }
+
+          p {
+            margin-top: 0.2rem;
+            font-size: 8px;
+            width: 100%;
+            height: 7vh;
+            height: 8vh;
+            border: 2px solid gray;
+          }
+        }
+      }
+
+      .back-end {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .o-o-o {
+          width: 30%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 90%;
+          }
+        }
+
+        .t-t-t {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          height: 9vh;
+
+          h3 {
+            font-weight: 900;
+            height: 2vh;
+            font-size: 15px;
+            width: 100%;
+          }
+
+          p {
+            margin-top: 0.2rem;
+            font-size: 8.5px;
+            width: 100%;
+            height: 7vh;
+            height: 8vh;
+            border: 2px solid gray;
+          }
+        }
+      }
+    }
+
+    .graphic-design {
+      height: 10vh;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+      .o-o-o {
+        width: 30%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 90%;
+        }
+      }
+
+      .t-t-t {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        height: 9vh;
+
+        h3 {
+          font-weight: 900;
+          height: 2vh;
+          font-size: 15px;
+          width: 100%;
+        }
+
+        p {
+          margin-top: 0.2rem;
+          font-size: 8.5px;
+          width: 100%;
+          height: 8vh;
+          border: 2px solid gray;
+        }
+      }
+    }
+  }
+}

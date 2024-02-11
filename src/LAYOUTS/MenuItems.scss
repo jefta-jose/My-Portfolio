@@ -1,0 +1,28 @@
+.menu-items-container {
+    position: absolute;
+    width: 3vw;
+    height: 50vh;
+    top: 12rem;
+    right: 11rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: orange;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+
+    a{
+        width: 3vw;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 2vw;
+            height: 5vh;
+            background-color: orange;
+        }
+    }
+}

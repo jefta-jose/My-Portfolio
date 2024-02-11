@@ -1,0 +1,126 @@
+.Testimonials {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    border: 2px solid gray;
+    font-weight: 900;
+    height: 13vh;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .testimonials-cont{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    .upp-one{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50%;
+        gap: 1rem;
+
+        .one{
+            width: 48%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .left{
+                width: 30%;
+                height: 100%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .jenny-text{
+                width: 70%;
+                height: 95.5%;
+                display: grid;
+                place-items: center;
+                background-color: black;
+                padding: 5px;
+
+                h4{
+                    font-weight: 900;
+                    height: 10%;
+                    width: 100%;
+                    background-color: black;
+                    color: orange;
+                }
+
+                p{
+                    height: 90%;
+                    width: 100%;
+                    background-color: black;
+                    color: white;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+
+    .lower-test{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50%;
+        gap: 1rem;
+
+        .one{
+            width: 48%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .left{
+                width: 30%;
+                height: 100%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .jenny-text{
+                width: 70%;
+                height: 95.5%;
+                display: grid;
+                place-items: center;
+                background-color: black;
+                padding: 5px;
+
+                h4{
+                    font-weight: 900;
+                    height: 8%;
+                    width: 100%;
+                    background-color: black;
+                    color: orange;
+                }
+
+                p{
+                    height: 90%;
+                    width: 100%;
+                    background-color: black;
+                    color: white;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+  }
+}
